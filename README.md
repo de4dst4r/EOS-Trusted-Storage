@@ -20,5 +20,6 @@ npm run build
 
 
 ### Customize configuration
+(https://github.com/meeting16/eos-trusted)
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
