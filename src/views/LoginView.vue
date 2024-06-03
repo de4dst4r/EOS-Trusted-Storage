@@ -22,10 +22,7 @@ import axios from 'axios';
 import { useRouter } from 'vue-router';
 import {ref} from 'vue'
 import CryptoJS from 'crypto-js';
-/* const axiosInstance = axios.create({
-    baseURL: 'http://10.122.202.37',
-    timeout: 1000,
-}) */
+
 import { useMainStore } from '@/stores/useMainStore';
 const router = useRouter();
 const username = ref('');
@@ -126,8 +123,8 @@ console.error('发送数据时出错:', error);
         width: 100%;
         border: none;
         outline: none;
-        background: rgba(234, 238, 4, 0.938);
-        opacity: 0.6;
+        background: rgba(5, 39, 174, 0.938);
+        opacity: 0.9;
         font-size: 15px;
         padding: 15px 15px;
         color: #000;
@@ -137,8 +134,8 @@ console.error('发送数据时出错:', error);
 
     button {
         width: 120px;
-        color: #000;
-        background: rgba(234, 238, 4, 0.938);
+        color: #fff;
+        background: rgba(5, 39, 174, 0.938);
         border: none;
         padding: 8px;
         border-radius: 15px;
@@ -146,7 +143,7 @@ console.error('发送数据时出错:', error);
         15px 15px 10px rgba(0,0,0,0.05)
         15px 10px 15px rgba(0,0,0,0.025)
         ;
-        opacity: 0.6;
+        opacity: 0.9;
         transition: 0.5s;
         cursor: pointer;
     }
@@ -188,10 +185,10 @@ console.error('发送数据时出错:', error);
         left: 67%;
         width: 120px;
         height: 120px;
-        background: #c61dff;
-        box-shadow: inset 10px 10px 10px rgba(190,1,254,0.05),
-        15px 25px 10px rgba(190,1,254,0.1),
-        15px 20px 20px rgba(190,1,254,0.1),
+        background: #1435ee;
+        box-shadow: inset 10px 10px 10px rgba(35, 122, 223, 0.05),
+        15px 25px 10px rgba(13, 116, 142, 0.1),
+        15px 20px 20px rgba(39, 72, 236, 0.1),
         inset -10px -10px 15px rgba(255, 255, 255, 0.5);
         
         border-radius: 44%  56% 65%  35%  / 57% 58% 42% 43% ;

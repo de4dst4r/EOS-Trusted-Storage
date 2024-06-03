@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="header">
     <a-page-header
       class="demo-page-header"
       style="border: 1px solid rgb(235, 237, 240)"
@@ -40,5 +40,12 @@ userData = mainstore.userData[0];
 <style scoped>
 .demo-page-header :deep(tr:last-child td) {
   padding-bottom: 0;
+  color: #fff;
 }
+
+.header{
+  color:white;
+  /* background: url(../assets/images/bg1.png); */
+  background-size: contain;
+} 
 </style>
