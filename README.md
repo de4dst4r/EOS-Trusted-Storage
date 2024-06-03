@@ -16,10 +16,7 @@ npm run build
 ```
 
 ### 服务器端请参考以下代码
-
-
-
-### Customize configuration
 (https://github.com/meeting16/eos-trusted)
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
 
